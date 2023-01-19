@@ -50,6 +50,7 @@ h1 {
    color:#002000;
 }
 .content {
+    background-color:#AAFFAA ;
     display:inline;
     float:left;
     width:55%;
@@ -59,6 +60,7 @@ h1 {
     border:1px,black;
 }
 .images {
+    background-color: #003300;
     display:inline;
     float:right;
     width:30%;
