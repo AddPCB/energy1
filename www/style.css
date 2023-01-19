@@ -36,23 +36,27 @@ h1 {
    color:#002000;
 }
 .content {
+    display:inline;
     float:left;
     width:55%;
+    height:80%;
     padding-left:5%;
     padding-right:5%;
     border:1px,black;
 }
 .images {
+    display:inline;
     float:right;
     width:30%;
-    height:auto;
+    height:80vh;
     border:1px,black;
     padding-right:5%;
 
 }
 main img {
-    width:30%;
-    height:auto;
+    width:100%;
+    display:block;
+    max-height: 33%;
 
 }
 footer { 
@@ -67,4 +71,7 @@ footer {
     border: 0;
     padding: 0;
     margin:0;
+}
+h4 { 
+    display:inline;
 }
