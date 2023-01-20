@@ -1,6 +1,6 @@
 function getName() {
     let myName = prompt ("What is your name?");
-    document.write(myName);
+    document.write (myName);
 }
 function getAge() { 
     let age = prompt ("What is your age? (1-99)");
@@ -16,40 +16,43 @@ if (age <= 18) {
     } else {
         message = "we hope this website can save you money at any age.";
     }
-    document.write(message);
+    document.write (message);
 }   
 function getRate() {
     let rate = prompt ("What is your unit rate (1.0-99.99)");
     
     let units = prompt ("How many units of energy have you used this month? (1.0-999999.99)");
- 
+
     let bill = ("Your estimated bill this month is £" + rate * units + "!");
-    document.write(bill);
+    
+    document.write (bill);
 }
+
 // function to make the user guess my age
 function guessAge() {
+
     let answer;
+
 // while the answer is incorrect keep asking
-while( answer != 42) {
-    answer = prompt("Guess a number between 35 and 45");
-
-    if(answer != 42) { alert("That is not the answer!");
-
-} else { alert("The answer is 42!");
-document.write("You guessed the answer to life, the universe, and everything!");
-}}
+while ( answer != 42) {
+        answer = prompt ("Guess a number between 35 and 45.");
+        if(answer != 42) { alert("That is not the answer!");
+        } else { alert ("Correct! The answer is 42!");
+        document.write ("You guessed the answer to life, the universe, and everything!");
+        }
+    }
 }
 
 
 // function that lets the user rate the website
-function getRating() {
-    let rating = prompt("Please rate our website 1-5.");
-    let output = "Your rating: ";
+function getRating () {
+    let rating = prompt ("Please rate our website 1-5.");
+    let output = "Your rated us: ";
 
-    for(let i = 0; i < rating; i++) {
+    for (let i = 0; i < rating; i++) {
         output = output + "<img src='images/iflame.png' class='flame' />"
     }
-    document.write(output);
+    document.write (output);
 }
 
 // let string ="Tim";
