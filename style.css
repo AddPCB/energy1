@@ -67,7 +67,11 @@ h1 {
     height:80vh;
     border:1px,black;
     padding-right:5%;
-
+}
+.flame {
+    width:102px;
+    height:102px;
+    display:inline-flex;
 }
 main img {
     width:100%;

@@ -26,7 +26,35 @@ function getRate() {
     let bill = ("Your estimated bill this month is £" + rate * units + "!");
     document.write(bill);
 }
+// function to make the user guess my age
+function guessAge() {
+    let answer;
+// while the answer is incorrect keep asking
+while( answer != 42) {
+    answer = prompt("Guess a number between 35 and 45");
 
+    if(answer != 42) { alert("That is not the answer!");
+
+} else { alert("The answer is 42!");
+document.write("You guessed the answer to life, the universe, and everything!");
+}}
+}
+
+
+// function that lets the user rate the website
+function getRating() {
+    let rating = prompt("Please rate our website 1-5.");
+    let output = "Your rating: ";
+
+    for(let i = 0; i < rating; i++) {
+        output = output + "<img src='images/iflame.png' class='flame' />"
+    }
+    document.write(output);
+}
+
+// let string ="Tim";
+// let string2 ="Smith";
+// let string 3 =
 // let time = prompt("What hour of the day is it? (0-23)");
 // let message;
 // console.log(time);
